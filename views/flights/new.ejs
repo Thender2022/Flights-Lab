@@ -2,35 +2,27 @@
 
 <h2>Enter a New Flight</h2>
 <form action="/flights" method="POST">
-  <label>Airline:
-    <select name="airline">
-      <option value="southwest">Southwest</option>
-      <option value="american">American</option>
-      <option value="united">United</option>
-      <option value="spirit">Spirit</option>
-      <option value="atlair">ATL Air</option>
-    </select>
-  </label><br>
   <label>Airport:
     <select name="airport">
-      <option value="bwi">BWI</option>
-      <option value="lax">LAX</option>
-      <option value="lgb">LGB</option>
-      <option value="lgb">LGB</option>
-      <option value="lgb">LGB</option>
+      <option value="DEN">DEN</option>
+      <option value="AUS">AUS</option>
+      <option value="DFW">DFW</option>
+      <option value="LAX">LAX</option>
+      <option value="SAN">SAN</option>
     </select>
   </label><br>
-  <label>Flight Number
-    <select name="flightNumber">
-      <option value="1017">1017</option>
-      <option value="1111">1111</option>
-      <option value="444">444</option>
-      <option value="410">410</option>
-      <option value="562">562</option>
+  <label>Airline:
+    <select name="airline">
+      <option value="American">American</option>
+      <option value="Southwest">Southwest</option>
+      <option value="United">United</option>
     </select>
   </label><br>
-  <label>Departing
-    <input type="date" name="cast">
+  <label>Flight Number:
+    <input name="flightNo">
+  </label><br>
+  <label>Departure Date:
+    <input type="date" name="departs">
   </label><br>
   <!-- <label>Now Departing:
     <input type="checkbox" name="nowShowing" checked>
